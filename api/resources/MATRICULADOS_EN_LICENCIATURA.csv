@@ -1,0 +1,19 @@
+"Area ID","Area","Sex ID","Sex","Students"
+1,"Educación",1,"Hombre",550
+1,"Educación",2,"Mujer",2979
+2,"Artes y humanidades",1,"Hombre",3570
+2,"Artes y humanidades",2,"Mujer",5337
+3,"Ciencias sociales y derecho",1,"Hombre",7730
+3,"Ciencias sociales y derecho",2,"Mujer",11510
+4,"Administración y negocios",1,"Hombre",5099
+4,"Administración y negocios",2,"Mujer",8390
+5,"Ciencias naturales, matemáticas y estadística",1,"Hombre",1273
+5,"Ciencias naturales, matemáticas y estadística",2,"Mujer",861
+6,"Tecnologías de la información y la comunicación",1,"Hombre",6148
+6,"Tecnologías de la información y la comunicación",2,"Mujer",1159
+7,"Ingeniería, manufactura y construcción",1,"Hombre",11906
+7,"Ingeniería, manufactura y construcción",2,"Mujer",4793
+9,"Ciencias de la salud",1,"Hombre",5301
+9,"Ciencias de la salud",2,"Mujer",9851
+10,"Servicios",1,"Hombre",2333
+10,"Servicios",2,"Mujer",1573

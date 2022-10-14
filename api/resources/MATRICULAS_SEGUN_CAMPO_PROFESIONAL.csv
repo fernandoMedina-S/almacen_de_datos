@@ -1,0 +1,98 @@
+"Area ID","Area","Field ID","Field","Subfield ID","Subfield","Year","Students","Students Growth","Students Growth Value","percentage"
+1,"Educación",11,"Ciencias de la educación y pedagogía",110,"Planes multidisciplinarios o generales del campo de ciencias de la educación y pedagogía",2021,48,-0.3684210526315789,-28,0.0004515394673715699
+1,"Educación",11,"Ciencias de la educación y pedagogía",111,"Diseño curricular y pedagogía",2021,1776,-0.0528,-99,0.01670696029274809
+1,"Educación",11,"Ciencias de la educación y pedagogía",112,"Planeación, evaluación e investigación educativa",2021,1015,0.11538461538461539,105,0.009548178320461323
+1,"Educación",11,"Ciencias de la educación y pedagogía",113,"Orientación e intervención educativa",2021,450,0.5845070422535211,166,0.004233182506608468
+1,"Educación",11,"Ciencias de la educación y pedagogía",114,"Tecnología y comunicación educativa",2021,160,0.02564102564102564,4,0.0015051315579052331
+1,"Educación",11,"Ciencias de la educación y pedagogía",115,"Ciencias de la educación",2021,505,0.06092436974789916,29,0.004750571479638392
+1,"Educación",12,"Formación docente",120,"Planes multidisciplinarios o generales del campo de formación docente",2021,36,-0.14285714285714285,-6,0.0003386546005286775
+1,"Educación",12,"Formación docente",121,"Formación docente en educación básica, nivel preescolar",2021,173,-0.1642512077294686,-34,0.0016274234969850334
+1,"Educación",12,"Formación docente",122,"Formación docente en educación básica, nivel primaria",2021,1251,0.12702702702702703,141,0.011768247368371542
+1,"Educación",12,"Formación docente",123,"Formación docente en educación básica, nivel secundaria",2021,219,-0.2651006711409396,-79,0.002060148819882788
+1,"Educación",12,"Formación docente",124,"Formación docente en educación media superior",2021,108,-0.009174311926605505,-1,0.0010159638015860323
+1,"Educación",12,"Formación docente",125,"Formación docente en educación superior",2021,3,-0.4,-2,0.00002822121671072312
+1,"Educación",12,"Formación docente",126,"Formación docente en la enseñanza de asignaturas específicas",2021,1503,0.22693877551020408,278,0.014138829572072284
+1,"Educación",12,"Formación docente",127,"Formación docente en otros servicios educativos",2021,66,-0.4260869565217391,-49,0.0006208667676359087
+2,"Artes y humanidades",21,"Artes",210,"Planes multidisciplinarios o generales del campo de artes",2021,937,0.10887573964497041,92,0.008814426685982521
+2,"Artes y humanidades",21,"Artes",211,"Bellas artes",2021,629,0.008012820512820512,5,0.005917048437014948
+2,"Artes y humanidades",21,"Artes",212,"Artes escénicas",2021,638,-0.015432098765432098,-10,0.006001712087147117
+2,"Artes y humanidades",21,"Artes",214,"Tecnologías audiovisuales para medios de comunicación",2021,839,-0.12695109261186263,-122,0.007892533606765567
+2,"Artes y humanidades",21,"Artes",215,"Diseño y comunicación gráfica y editorial",2021,1857,-0.03331598125976054,-64,0.01746893314393761
+2,"Artes y humanidades",21,"Artes",216,"Diseño industrial, de moda e interiores",2021,1589,-0.08991981672394044,-157,0.014947837784446347
+2,"Artes y humanidades",21,"Artes",219,"Música",2021,337,-0.08672086720867209,-32,0.0031701833438378974
+2,"Artes y humanidades",22,"Humanidades",220,"Planes multidisciplinarios o generales del campo de humanidades",2021,9,-0.25,-3,0.00008466365013216937
+2,"Artes y humanidades",22,"Humanidades",221,"Teología",2021,281,0.13765182186234817,34,0.0026433872985710655
+2,"Artes y humanidades",22,"Humanidades",222,"Adquisición de idiomas extranjeros",2021,72,-0.14285714285714285,-12,0.000677309201057355
+2,"Artes y humanidades",22,"Humanidades",223,"Literatura",2021,559,0.075,39,0.005258553380431409
+2,"Artes y humanidades",22,"Humanidades",225,"Historia y arqueología",2021,658,0.046104928457869634,29,0.0061898535318852714
+2,"Artes y humanidades",22,"Humanidades",226,"Filosofía y ética",2021,670,0.11480865224625623,69,0.006302738398728164
+3,"Ciencias sociales y derecho",31,"Ciencias sociales y estudios del comportamiento",310,"Planes multidisciplinarios o generales del campo de ciencias sociales y estudios del comportamiento",2021,119,-0.13768115942028986,-19,0.001119441596192017
+3,"Ciencias sociales y derecho",31,"Ciencias sociales y estudios del comportamiento",311,"Psicología",2021,5045,-0.016952455183164458,-87,0.04745867943519938
+3,"Ciencias sociales y derecho",31,"Ciencias sociales y estudios del comportamiento",312,"Sociología y antropología",2021,308,0.0547945205479452,16,0.002897378248967574
+3,"Ciencias sociales y derecho",31,"Ciencias sociales y estudios del comportamiento",313,"Ciencias políticas",2021,76,-0.02564102564102564,-2,0.0007149374900049857
+3,"Ciencias sociales y derecho",31,"Ciencias sociales y estudios del comportamiento",315,"Trabajo y atención social",2021,1299,-0.11391541609822646,-167,0.012219786835743112
+3,"Ciencias sociales y derecho",32,"Ciencias de la información",321,"Comunicación y periodismo",2021,867,-0.11800610376398779,-116,0.008155931629398983
+3,"Ciencias sociales y derecho",32,"Ciencias de la información",322,"Biblioteconomía y archivonomía",2021,111,-0.02631578947368421,-3,0.0010441850182967556
+3,"Ciencias sociales y derecho",33,"Derecho y criminología",331,"Derecho",2021,10682,-0.09166666666666666,-1078,0.10048634563464813
+3,"Ciencias sociales y derecho",33,"Derecho y criminología",332,"Criminología y criminalística",2021,2402,-0.09767092411720511,-260,0.02259578751305231
+4,"Administración y negocios",41,"Negocios y contabilidad",410,"Planes multidisciplinarios o generales del campo de negocios y contabilidad",2021,135,3.3548387096774195,104,0.0012699547519825405
+4,"Administración y negocios",41,"Negocios y contabilidad",411,"Negocios y comercio",2021,1402,-0.1430317848410758,-234,0.013188715276144606
+4,"Administración y negocios",41,"Negocios y contabilidad",412,"Mercadotecnia y publicidad",2021,1364,0.0991136180499597,123,0.012831246531142112
+4,"Administración y negocios",41,"Negocios y contabilidad",413,"Finanzas, banca y seguros",2021,55,0.1956521739130435,9,0.0005173889730299239
+4,"Administración y negocios",41,"Negocios y contabilidad",414,"Contabilidad y fiscalización",2021,2452,-0.17357600269632625,-515,0.023066141124897698
+4,"Administración y negocios",42,"Administración y gestión",420,"Planes multidisciplinarios o generales del campo de administración y gestión",2021,1239,-0.07949479940564635,-107,0.01165536250152865
+4,"Administración y negocios",42,"Administración y gestión",421,"Administración de empresas",2021,3897,-0.17401441288681646,-821,0.03665936050722934
+4,"Administración y negocios",42,"Administración y gestión",422,"Administración turística y de restaurantes",2021,76,-0.3333333333333333,-38,0.0007149374900049857
+4,"Administración y negocios",42,"Administración y gestión",423,"Administración pública",2021,4448,0.02018348623853211,88,0.04184265730976548
+4,"Administración y negocios",42,"Administración y gestión",424,"Administración en el ámbito de la ingeniería y la construcción",2021,22,0.15789473684210525,3,0.00020695558921196957
+4,"Administración y negocios",42,"Administración y gestión",425,"Administración en los campos de la educación, salud, deporte, agronomía y las artes y humanidades",2021,317,-0.1994949494949495,-79,0.0029820418990997434
+5,"Ciencias naturales, matemáticas y estadística",51,"Ciencias biológicas y ambientales",511,"Biología",2021,50,-0.18032786885245902,-11,0.00047035361184538535
+5,"Ciencias naturales, matemáticas y estadística",51,"Ciencias biológicas y ambientales",512,"Bioquímica y biofísica",2021,295,-0.04838709677419355,-15,0.002775086309887774
+5,"Ciencias naturales, matemáticas y estadística",52,"Ciencias físicas, químicas y de la tierra",520,"Planes multidisciplinarios o generales del campo de ciencias físicas, químicas y de la tierra",2021,176,1,176,0.0016556447136957565
+5,"Ciencias naturales, matemáticas y estadística",52,"Ciencias físicas, químicas y de la tierra",521,"Física y astronomía",2021,448,0.16666666666666666,64,0.004214368362134653
+5,"Ciencias naturales, matemáticas y estadística",52,"Ciencias físicas, químicas y de la tierra",522,"Química",2021,887,-0.07507820646506778,-72,0.008344073074137136
+5,"Ciencias naturales, matemáticas y estadística",52,"Ciencias físicas, químicas y de la tierra",523,"Ciencias de la tierra y de la atmósfera",2021,349,0.08385093167701864,27,0.0032830682106807898
+5,"Ciencias naturales, matemáticas y estadística",53,"Matemáticas y estadística",531,"Matemáticas",2021,322,0.24324324324324326,63,0.003029077260284282
+6,"Tecnologías de la información y la comunicación",61,"Innovación en tecnologías de la información y la comunicación",610,"Planes multidisciplinarios o generales del campo de innovación en tecnologías de la información y la comunicación",2021,2764,0.12084347120843471,298,0.026001147662812904
+6,"Tecnologías de la información y la comunicación",61,"Innovación en tecnologías de la información y la comunicación",612,"Desarrollo de hardware",2021,1,1,1,0.000009407072236907707
+6,"Tecnologías de la información y la comunicación",61,"Innovación en tecnologías de la información y la comunicación",613,"Desarrollo de software",2021,945,-0.023760330578512397,-23,0.008889683263877783
+6,"Tecnologías de la información y la comunicación",62,"Implementación de las tecnologías de la información y la comunicación",620,"Planes multidisciplinarios o generales del campo de implementación de las tecnologías de la información y la comunicación",2021,17,1.125,9,0.00015992022802743103
+6,"Tecnologías de la información y la comunicación",62,"Implementación de las tecnologías de la información y la comunicación",621,"Telecomunicaciones",2021,1713,0.0017543859649122807,3,0.016114314741822903
+6,"Tecnologías de la información y la comunicación",62,"Implementación de las tecnologías de la información y la comunicación",622,"Informática",2021,2274,0.07112576542628356,151,0.021391682266728128
+7,"Ingeniería, manufactura y construcción",71,"Ingeniería mecánica, eléctrica, electrónica, química y profesiones afines",710,"Planes multidisciplinarios o generales del campo de ingeniería mecánica, eléctrica, electrónica, química y profesiones afines",2021,737,0.2685025817555938,156,0.00693301223860098
+7,"Ingeniería, manufactura y construcción",71,"Ingeniería mecánica, eléctrica, electrónica, química y profesiones afines",711,"Mecánica y profesiones afines al trabajo metálico",2021,1410,-0.053691275167785234,-80,0.013263971854039868
+7,"Ingeniería, manufactura y construcción",71,"Ingeniería mecánica, eléctrica, electrónica, química y profesiones afines",712,"Electricidad y generación de energía",2021,240,0.23711340206185566,46,0.0022576973368578497
+7,"Ingeniería, manufactura y construcción",71,"Ingeniería mecánica, eléctrica, electrónica, química y profesiones afines",713,"Electrónica, automatización y aplicaciones de la mecánica-eléctrica",2021,3978,0.0719482619240097,267,0.03742133335841886
+7,"Ingeniería, manufactura y construcción",71,"Ingeniería mecánica, eléctrica, electrónica, química y profesiones afines",714,"Ingeniería de procesos químicos",2021,1565,0.06753069577080491,99,0.014722068050760562
+7,"Ingeniería, manufactura y construcción",71,"Ingeniería mecánica, eléctrica, electrónica, química y profesiones afines",715,"Vehículos, barcos y aeronaves motorizadas",2021,4,-0.5,-4,0.00003762828894763083
+7,"Ingeniería, manufactura y construcción",71,"Ingeniería mecánica, eléctrica, electrónica, química y profesiones afines",716,"Tecnología para la protección del medio ambiente",2021,175,-0.07407407407407407,-14,0.0016462376414588488
+7,"Ingeniería, manufactura y construcción",71,"Ingeniería mecánica, eléctrica, electrónica, química y profesiones afines",717,"Ingeniería industrial",2021,3462,-0.03269069572506287,-117,0.03256728408417448
+7,"Ingeniería, manufactura y construcción",72,"Manufacturas y procesos",720,"Planes multidisciplinarios o generales del campo de manufacturas y procesos",2021,7,1,7,0.00006584950565835395
+7,"Ingeniería, manufactura y construcción",72,"Manufacturas y procesos",721,"Industria de la alimentación",2021,551,0.06782945736434108,35,0.0051832968025361465
+7,"Ingeniería, manufactura y construcción",72,"Manufacturas y procesos",723,"Industrias de materiales diversos (cerámica, madera, plástico y vidrio)",2021,140,-0.21348314606741572,-38,0.001316990113167079
+7,"Ingeniería, manufactura y construcción",73,"Arquitectura y construcción",731,"Arquitectura y urbanismo",2021,4151,0.04375157153633392,174,0.03904875685540389
+7,"Ingeniería, manufactura y construcción",73,"Arquitectura y construcción",732,"Construcción e ingeniería civil",2021,1974,-0.0010121457489878543,-2,0.018569560595655815
+8,"Agronomía y veterinaria",81,"Agronomía, horticultura, silvicultura y pesca",812,"Horticultura",2021,2,1,2,0.000018814144473815415
+9,"Ciencias de la salud",91,"Ciencias médicas",911,"Medicina general",2021,6713,0.041905944435821824,270,0.06314967592636143
+9,"Ciencias de la salud",91,"Ciencias médicas",912,"Medicina homeopática",2021,869,-0.04610318331503842,-42,0.008174745773872798
+9,"Ciencias de la salud",91,"Ciencias médicas",913,"Medicina de especialidad",2021,2895,0.01188395665851101,34,0.027233474125847812
+9,"Ciencias de la salud",92,"Enfermería",922,"Enfermería de especialidad",2021,54,-0.37209302325581395,-32,0.0005079819007930161
+9,"Ciencias de la salud",93,"Ciencias odontológicas",931,"Estomatología y odontología general",2021,2532,0.03178484107579462,78,0.023818706903850316
+9,"Ciencias de la salud",93,"Ciencias odontológicas",932,"Estomatología y odontología de especialidad",2021,202,-0.2047244094488189,-52,0.001900228591855357
+9,"Ciencias de la salud",94,"Terapia, rehabilitación y tratamientos alternativos",940,"Planes multidisciplinarios o generales del campo de terapia, rehabilitación y tratamientos alternativos",2021,16,0.06666666666666667,1,0.00015051315579052332
+9,"Ciencias de la salud",94,"Terapia, rehabilitación y tratamientos alternativos",941,"Terapia y rehabilitación",2021,1129,-0.1906810035842294,-266,0.010620584555468802
+9,"Ciencias de la salud",94,"Terapia, rehabilitación y tratamientos alternativos",942,"Nutrición",2021,2187,-0.03994732221246708,-91,0.020573266982117155
+9,"Ciencias de la salud",94,"Terapia, rehabilitación y tratamientos alternativos",943,"Tratamientos alternativos y acupuntura",2021,141,0.5494505494505495,50,0.0013263971854039866
+9,"Ciencias de la salud",95,"Disciplinas auxiliares para la salud",951,"Atención prehospitalaria y emergencias médicas",2021,119,-0.5102880658436214,-124,0.001119441596192017
+9,"Ciencias de la salud",95,"Disciplinas auxiliares para la salud",952,"Biomedicina",2021,62,0.03333333333333333,2,0.0005832384786882778
+9,"Ciencias de la salud",95,"Disciplinas auxiliares para la salud",953,"Diagnóstico médico y tecnología del tratamiento",2021,661,0.04094488188976378,26,0.006218074748595995
+9,"Ciencias de la salud",95,"Disciplinas auxiliares para la salud",954,"Farmacia",2021,2848,0.021887334050950842,61,0.02679134173071315
+9,"Ciencias de la salud",95,"Disciplinas auxiliares para la salud",955,"Audiometría y optometría",2021,29,-0.3958333333333333,-19,0.0002728050948703235
+9,"Ciencias de la salud",95,"Disciplinas auxiliares para la salud",956,"Salud pública",2021,148,0.21311475409836064,26,0.0013922466910623406
+10,"Servicios",101,"Servicios personales y deportes",1010,"Planes multidisciplinarios o generales del campo de servicios personales y deportes",2021,25,1,25,0.00023517680592269268
+10,"Servicios",101,"Servicios personales y deportes",1011,"Deportes",2021,2529,-0.06437291897891231,-174,0.023790485687139592
+10,"Servicios",101,"Servicios personales y deportes",1015,"Gastronomía y servicios de alimentos",2021,970,-0.2606707317073171,-342,0.009124860069800476
+10,"Servicios",101,"Servicios personales y deportes",1016,"Hospitalidad y turismo",2021,134,-0.2254335260115607,-39,0.0012605476797456327
+10,"Servicios",102,"Servicios de transporte",1021,"Servicios de transporte",2021,204,0.59375,76,0.0019190427363291723
+10,"Servicios",103,"Seguridad para el trabajo",1031,"Seguridad para el trabajo",2021,317,-0.021604938271604937,-7,0.0029820418990997434
+10,"Servicios",104,"Servicios de seguridad",1041,"Seguridad pública",2021,178,-0.14423076923076922,-30,0.0016744588581695718

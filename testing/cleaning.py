@@ -2,6 +2,7 @@ import petl as etl
 import mysql.connector
 import sqlite3
 import psycopg2
+import pymysql
 
 tabla1 = etl.fromcsv('data.csv')
 """
