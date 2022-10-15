@@ -4,7 +4,8 @@ import json
 app = FastAPI()
 
 # Connect to the database
-connection = mysql.connector.connect(user='root', password='admin', host='localhost', database='sakila')
+connection = mysql.connector.connect(
+    user='root', password='', host='localhost', database='nuevas_escuelas')
 # Retrive the cursor
 cursor = connection.cursor()
 
@@ -12,7 +13,7 @@ cursor = connection.cursor()
 def getResults(cursor):
     print(type(cursor))
     encabezado = [i[0] for i in cursor.description]
-    resultado  = []
+    resultado = []
     for fila in cursor.fetchall():
         resultado.append(dict(zip(encabezado, fila)))
     return json.dumps(resultado)
@@ -22,28 +23,43 @@ def getResults(cursor):
 def root():
     return "HOME"
 
-import petl as etl
-import pymysql
 
-#para la conexxión de petl
-"""
-connection = pymysql.connect(host="localhost", user="root", password='', database='nuevas_escuelas')
-connection.cursor().execute('SET SQL_MODE=ANSI_QUOTES')
-"""
+@app.get("/colonia_negocios/{colonia}")
+def colonia_negocios(colonia: str):
+    consulta = """SELECT dim_colonia.nombre, dim_negocio.nombre, dim_negocio.giro FROM colonia_negocio 
+    INNER JOIN dim_colonia on colonia_negocio.id_colonia = dim_colonia.id_colonia 
+    inner JOIN dim_negocio on colonia_negocio.id_negocio = dim_negocio.id_negocio where dim_colonia.nombre = '{}'""".format(
+        colonia)
+    cursor.execute(consulta)
+    resultado = cursor.fetchall()
+    return resultado
 
-#Con esto subes los datos de escuelas
-"""csvEscuelas = etl.fromcsv("./concentrado_escuelas_jalisco.csv", encoding="UTF-8")
-tabla2 = etl.cut(csvEscuelas, "Nombre del centro de trabajo", "Domicilio", "Nombre del municipio o delegación", "Alumnos total", "Nombre del control (Público o Privado)", "Nombre de la colonia", "Tipo educativo")
-tabla2 =  etl.rename(tabla2, {"Nombre del centro de trabajo": "nombre", "Domicilio": "calle", "Nombre del municipio o delegación": "ciudad", "Alumnos total": "numero_alumnos", "Nombre del control (Público o Privado)": "control", "Nombre de la colonia": "colonia", "Tipo educativo": "nivel"})
-etl.todb(tabla2, connection, 'dim_escuela')
-print(tabla2)
-"""
+@app.get("/ciudad_negocios/{ciudad}")
+def ciudad_negocios(ciudad: str):
+    consulta = """SELECT dim_colonia.nombre, dim_negocio.nombre, dim_negocio.giro FROM colonia_negocio 
+    INNER JOIN dim_colonia on colonia_negocio.id_colonia = dim_colonia.id_colonia 
+    inner JOIN dim_negocio on colonia_negocio.id_negocio = dim_negocio.id_negocio where dim_colonia.ciudad = '{}'""".format(
+        ciudad)
+    cursor.execute(consulta)
+    resultado = cursor.fetchall()
+    return resultado
 
-#Con esto subes lo de las rutas de transporte
-"""
-routesFile = etl.fromcsv("./resources/routes.csv", encoding="utf-8")
-tabla2 = etl.cut(routesFile, "route_id", "route_long_name")
-tabla2 = etl.rename(tabla2, {"route_id": "ruta", "route_long_name": "destino"})
-etl.todb(tabla2, connection, 'dim_transporte')
-print(tabla2)
-"""
+@app.get("/colonia_escuelas/{colonia}")
+def colonia_escuelas(colonia: str):
+    consulta = """SELECT dim_colonia.nombre, dim_escuela.nombre, dim_escuela.nivel, dim_escuela.control FROM colonia_escuela 
+    INNER JOIN dim_colonia on colonia_escuela.id_colonia = dim_colonia.id_colonia 
+    inner JOIN dim_escuela on colonia_escuela.id_escuela = dim_escuela.id_escuela where dim_colonia.nombre = '{}'""".format(
+        colonia)
+    cursor.execute(consulta)
+    resultado = cursor.fetchall()
+    return resultado
+
+@app.get("/ciudad_escuelas/{ciudad}")
+def ciudad_escuelas(ciudad: str):
+    consulta = """SELECT dim_colonia.nombre, dim_escuela.nombre, dim_escuela.nivel, dim_escuela.control FROM colonia_escuela
+    INNER JOIN dim_colonia on colonia_escuela.id_colonia = dim_colonia.id_colonia 
+    inner JOIN dim_escuela on colonia_escuela.id_escuela = dim_escuela.id_escuela where dim_colonia.ciudad = '{}'""".format(
+        ciudad)
+    cursor.execute(consulta)
+    resultado = cursor.fetchall()
+    return resultado
