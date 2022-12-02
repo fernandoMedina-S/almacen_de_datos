@@ -1,13 +1,29 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 import mysql.connector
 import json
 app = FastAPI()
 
+origins = [
+    "*"
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 # Connect to the database
 connection = mysql.connector.connect(
-    user='root', password='admin', host='localhost', database='dwh')
+    user='root', password='', host='localhost', database='nuevas_escuelas')
 # Retrive the cursor
 cursor = connection.cursor()
+
+cursor.execute('set global max_allowed_packet=67108864')
+cursor.execute('SET GLOBAL connect_timeout = 10')
 
 
 def getResults(cursor):
@@ -25,7 +41,7 @@ def root():
 
 # -------------------------------------------------------
 # Escuelas por colonia
-@app.get("/escuelas-por-colinia/")
+@app.get("/escuelas-por-colonia/")
 def escuelas_por_colonia():
     consulta = """SELECT COUNT(id_colonia), id_escuela 
                     FROM colonia_escuela
@@ -33,6 +49,7 @@ def escuelas_por_colonia():
                     LIMIT 10;"""
     cursor.execute(consulta)
     resultado = cursor.fetchall()
+    resultado.insert(0, ("Escuelas", "Colonia"))
     return resultado
 
 # Negocios por colonia
@@ -59,12 +76,13 @@ def escuelas_num_estudiantes():
 # Numero de alumnos en las escuelas segun su nivel academico en guadalajara
 @app.get("/nivel-escuelas/")
 def nivel_escuelas():
-    consulta = """SELECT sum(numero_alumnos) AS num_alumnos, ciudad, nivel 
+    consulta = """SELECT nivel, sum(numero_alumnos) AS num_alumnos 
                     FROM dim_escuela
                     WHERE ciudad='GUADALAJARA' AND numero_alumnos != 0
                     GROUP BY nivel;"""
     cursor.execute(consulta)
     resultado = cursor.fetchall()
+    resultado.insert(0, ("Tipo de escuela", "Alumnos"))
     return resultado
 
 # Porcentaje de escuelas de nivel publico contra nivel privado en el estado de jalisco
